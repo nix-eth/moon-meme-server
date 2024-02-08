@@ -1,0 +1,12 @@
+{
+    "background": "healing-pool.png",
+    "foreground": "healing-pool.png",
+    "birds": [
+        {
+            "x": 289,
+            "y": 109,
+            "size": 480,
+            "style": "stand_south"
+        }
+    ]
+}

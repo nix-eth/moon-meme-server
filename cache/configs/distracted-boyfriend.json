@@ -1,0 +1,11 @@
+{
+    "background": "distracted-boyfriend.png",
+    "birds": [
+        {
+            "x": -80,
+            "y": 120,
+            "size": 700,
+            "style": "stand_south_1"
+        }
+    ]
+}

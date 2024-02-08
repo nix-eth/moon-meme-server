@@ -1,0 +1,14 @@
+{
+    "background": "charlie-conspiracy.png",
+    "foreground": "charlie-conspiracy.png",
+    
+    "birds": [
+        {
+            "x": 100,
+            "y": -60,
+            "size": 480,
+            "rotate": 8,
+            "style": "stand_east"
+        }
+    ]
+}

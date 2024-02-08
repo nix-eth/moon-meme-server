@@ -1,0 +1,14 @@
+{
+    "background": "bat-hang.png",
+    "foreground": "bat-hang.png",
+    
+    "birds": [
+        {
+            "x": 34,
+            "y": 112,
+            "size": 480,
+            "rotate": 179,
+            "style": "stand_south_5"
+        }
+    ]
+}

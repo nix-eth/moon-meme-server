@@ -1,0 +1,11 @@
+{
+    "background": "hoot-hoot-train.png",
+    "birds": [
+        {
+            "x": 160,
+            "y": 602,
+            "size": 400,
+            "style": "stand_east_5"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "background": "simple-sunrise.png",
+    "birds": [
+        {
+            "x": 260,
+            "y": -50,
+            "size": 935,
+            "style": "stand_west_1"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "background": "laughing-leo.png",
+    "foreground": "laughing-leo.png",
+    
+    "birds": [
+        {
+            "x": -30,
+            "y": -100,
+            "size": 900,
+            "rotate": -10,
+            "style": "stand_south"
+        }
+    ]
+}

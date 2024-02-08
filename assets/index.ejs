@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Community created memes for all Moonbirds">
+    <title>Moon Meme</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>Moon Meme</h1>
+    </header>
+    <main id="index">
+        <p>Enter a Moonbird ID to generate memes.</p>
+        <form id="idSelector">
+            <input type="number" min="0" max="9999" id="birdId" required>
+            <input type="submit" value="Generate">
+        </form>
+        <input type="button" value="Pick Randomly" id="randomBird">
+    </main>
+    <footer>
+      Created by <a href="https://twitter.com/nix_eth">nix.eth</a> powered by sprites from <a href="https://twitter.com/RealPixelShop">the pixel shop</a>
+    </footer>
+    <script>
+        document.querySelector("#idSelector").addEventListener("submit", function(e){
+                e.preventDefault()
+                const birdId = document.querySelector("#birdId").value
+                if (!birdId || isNaN(birdId) || birdId < 0 || birdId > 9999) {
+                    alert('Invalid ID, must be a number between 0 and 9999')
+                } else {
+                    window.location.href = "/" + birdId
+                }
+        })
+        document.querySelector("#randomBird").addEventListener("click", function(e){
+            window.location.href = "/" + Math.floor(Math.random() * 9999)
+        })
+        document.querySelector("#birdId").focus();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    padding: 15px;
+    font-size: 20px;
+}
+a {
+    color: #000;
+}
+input {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+input[type=button]:focus, input[type=submit]:focus{
+    background-color: #E5E4E2;
+}
+input[type=button], input[type=submit]{
+    cursor: pointer;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background-color: #000;
+    }
+    a {
+        color: #fff;
+    }
+    input {
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #fff;
+    }
+    input[type=button]:focus, input[type=submit]:focus{
+        background-color: #404040;
+    }
+}
+
+footer {
+    clear: both;
+    padding-top: 40px;
+    opacity: 50%;
+    font-size: 16px;
+}
+
+#view img {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+@media all and (min-width: 980px) {
+    #view a {
+        width: 400px;
+        height: 400px;
+        margin: 20px;
+        display: block;
+        float: left;
+        position: relative;
+    }
+    #view img {
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        cursor: pointer;
+        padding-bottom: 0;
+
+    }
+}
+
+#index form{
+    margin-bottom: 40px;
+}
+
+#index input{
+    font-size: 18px;
+    padding: 10px;
+}
+
+#index form #birdId{
+    width: 100px;
+}

@@ -1,0 +1,11 @@
+{
+    "background": "moon-watching.png",
+    "birds": [
+        {
+            "x": 244,
+            "y": 520,
+            "size": 480,
+            "style": "stand_north_3"
+        }
+    ]
+}
