@@ -43,13 +43,11 @@ async function routes(fastify) {
 
     const memeCachePath = path.join(CACHE_PATH, 'memes', `${memeHash}.png`)
 
-    /*
     if (existsSync(memeCachePath)) {
       reply.type('image/png')
       reply.send(await readFile(memeCachePath))
       return
     }
-    */
 
     const backgroundImage = await loadImage(
       path.join(CACHE_PATH, 'backgrounds', config.background)
