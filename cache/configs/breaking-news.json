@@ -1,0 +1,12 @@
+{
+    "background": "breaking-news.png",
+    "foreground": "breaking-news.png",
+    "birds": [
+        {
+            "x": -90,
+            "y": -50,
+            "size": 525,
+            "style": "stand_south"
+        }
+    ]
+}

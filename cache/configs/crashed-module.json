@@ -1,0 +1,13 @@
+{
+    "background": "crashed-module.png",
+    "foreground": "crashed-module.png",
+    
+    "birds": [
+        {
+            "x": 280,
+            "y": 173,
+            "size": 297,
+            "style": "stand_south_5"
+        }
+    ]
+}

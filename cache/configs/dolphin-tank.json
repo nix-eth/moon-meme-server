@@ -1,0 +1,11 @@
+{
+    "background": "dolphin-tank.png",
+    "birds": [
+        {
+            "x": 321,
+            "y": 105,
+            "size": 385,
+            "style": "walk_west_3"
+        }
+    ]
+}
