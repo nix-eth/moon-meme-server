@@ -1,0 +1,12 @@
+{
+    "background": "laser-eyes.png",
+    "foreground": "laser-eyes.png",
+    "birds": [
+        {
+            "x": -200,
+            "y": -100,
+            "size": 1400,
+            "style": "stand_south"
+        }
+    ]
+}
