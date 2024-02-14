@@ -1,0 +1,13 @@
+{
+    "background": "gme-art.png",
+    "foreground": "gme-art.png",
+    
+    "birds": [
+        {
+            "x": -10,
+            "y": -100,
+            "size": 1042,
+            "style": "stand_west"
+        }
+    ]
+}

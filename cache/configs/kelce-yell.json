@@ -1,0 +1,11 @@
+{
+    "background": "kelce-yell.png",
+    "birds": [
+        {
+            "x": -240,
+            "y": -80,
+            "size": 1030,
+            "style": "stand_east_1"
+        }
+    ]
+}
