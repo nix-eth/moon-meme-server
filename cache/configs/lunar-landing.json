@@ -1,0 +1,11 @@
+{
+    "background": "lunar-landing.png",
+    "birds": [
+        {
+            "x": 414,
+            "y": 274,
+            "size": 535,
+            "style": "stand_east_1"
+        }
+    ]
+}
